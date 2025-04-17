@@ -1,0 +1,42 @@
+/* ProfileCard.css */
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Arial', sans-serif;
+}
+
+.MuiContainer-root {
+ padding: 50px;
+ margin-top: 20px;
+ margin-bottom: 100px;
+ max-width: 1200px; /* Restrict the content width to 1200px */
+}
+
+.MuiGrid-root {
+ margin-top: 20px;
+}
+
+.MuiPaper-root {
+ padding: 20px;
+}
+
+.MuiTypography-root {
+ margin-bottom: 10px;
+}
+
+.work-experience-item, .certification-item {
+ margin-bottom: 20px;
+}
+
+a {
+ color: #007bff;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.MuiPaper-root .MuiTypography-body1 {
+ margin-bottom: 10px;
+}

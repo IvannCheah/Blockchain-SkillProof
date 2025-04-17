@@ -1,0 +1,31 @@
+.footer {
+ padding: 2em 0;
+ background-color: #333;
+ color: #fff;
+ text-align: center;
+ margin-top: auto; 
+ position: relative;
+}
+
+.footer-links {
+ margin-bottom: 1em; /* Adds space between footer links and social media icons */
+}
+
+.footer-links a,
+.social-media a {
+ color: #fff;
+ margin: 0 0.5em;
+ text-decoration: none;
+}
+
+.footer-links a:hover{
+ text-decoration: underline;
+}
+
+.social-media a {
+ font-size: 1.5em;
+}
+
+.social-media a:hover {
+ color: #007bff;
+}

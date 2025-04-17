@@ -1,0 +1,66 @@
+/* Container for overall page layout */
+.MuiContainer-root {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ margin-top: 32px; /* Adds space above the container */
+}
+
+/* Paper for the form and profile data */
+.MuiPaper-root {
+ padding: 24px;
+ margin-bottom: 24px;
+ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+ border-radius: 8px;
+}
+
+/* Typography for headings */
+.MuiTypography-h4 {
+ font-weight: 600;
+ color: #333;
+ text-align: center;
+}
+
+.MuiTypography-h6 {
+ font-weight: 500;
+ color: #333;
+ margin-bottom: 16px;
+}
+
+/* Form input styling */
+.MuiTextField-root {
+ margin-bottom: 16px;
+}
+
+/* Button styling */
+.MuiButton-root {
+ padding: 12px;
+ font-size: 16px;
+ font-weight: 600;
+ background-color: #007bff;
+ color: white;
+}
+
+.MuiButton-root:hover {
+ background-color: #0056b3;
+}
+
+.MuiButton-root:active {
+ background-color: #00408f;
+}
+
+/* Circular progress styling */
+.MuiCircularProgress-root {
+ margin-top: 20px;
+}
+
+/* Adds some margin between the form and the profile data */
+.MuiBox-root {
+ margin-top: 32px;
+}
+
+/* Form container adjustments */
+.MuiGrid-container {
+ margin-bottom: 24px;
+}

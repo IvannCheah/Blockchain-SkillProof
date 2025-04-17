@@ -1,0 +1,57 @@
+.work-exp-container {
+ margin: 20px;
+ padding: 20px;
+ font-family: Arial, sans-serif;
+}
+
+.work-exp-container h2 {
+ color: #333;
+}
+
+.work-exp-list {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.work-exp-entry {
+ background: #f9f9f9;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-exp-entry h3 {
+ color: #555;
+ margin-bottom: 10px;
+}
+
+.work-exp-item {
+ list-style: none;
+ padding: 10px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ margin-bottom: 10px;
+ background: #fff;
+}
+
+.work-exp-item p {
+ margin: 8px 0;
+}
+
+.work-exp-item button {
+ padding: 8px 12px;
+ background-color: #28a745;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.work-exp-item button:hover {
+ background-color: #218838;
+}
+
+.work-exp-item button:active {
+ background-color: #1e7e34;
+}

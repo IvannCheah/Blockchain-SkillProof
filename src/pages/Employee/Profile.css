@@ -1,0 +1,115 @@
+/* General Container Styles */
+.container {
+ padding: 2rem;
+ max-width: 1200px;
+ margin: 3rem auto;
+ background-color: #f9f9f9;
+ border-radius: 8px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling - All Sections have Same Style */
+.section {
+ background-color: #fff;
+ padding: 1.5rem;
+ margin-bottom: 1.5rem;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease;
+}
+
+/* Hover Effect on Section */
+.section:hover {
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section h5 {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: black; /* Set text color to black */
+ margin-bottom: 1rem;
+ border-bottom: 2px solid #dee2e6;
+ padding-bottom: 0.5rem;
+}
+
+.section p {
+ font-size: 1rem;
+ color: black; /* Set text color to black */
+ line-height: 1.6;
+}
+
+/* Typography */
+.MuiTypography-root {
+ font-family: 'Roboto', sans-serif;
+}
+
+.MuiTypography-h4 {
+ font-size: 2.5rem;
+ font-weight: 700;
+ text-align: center;
+ color: black; /* Set header color to black */
+ margin-bottom: 2rem;
+}
+
+.MuiTypography-h5 {
+ font-size: 1.75rem;
+ font-weight: 600;
+ color: black; /* Set text color to black */
+}
+
+/* Loading Spinner */
+.MuiCircularProgress-root {
+ display: block;
+ margin: 2rem auto;
+}
+
+/* Certification Item and Work Experience Item Styling */
+.certification-item,
+.work-experience-item {
+ padding: 1rem;
+ background-color: #f1f1f1;
+ border-radius: 8px;
+ margin-bottom: 1rem;
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item a {
+ color: #007bff;
+ text-decoration: none;
+}
+
+.certification-item a:hover {
+ text-decoration: underline;
+}
+
+.certification-item p {
+ margin-bottom: 0.5rem;
+}
+
+/* Work Experience Item Styling */
+.work-experience-item {
+ padding: 1rem;
+ background-color: #f9f9f9;
+ border-left: 4px solid #007bff;
+ margin-bottom: 1.5rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+ .container {
+   padding: 1rem;
+ }
+
+ .section {
+   padding: 1rem;
+ }
+
+ .profile-header {
+   flex-direction: column;
+   align-items: flex-start;
+ }
+
+ .profile-header h5 {
+   font-size: 1.5rem;
+ }
+}

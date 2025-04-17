@@ -1,0 +1,137 @@
+.homepage .hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: url('../../assets/background.jpeg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.homepage .hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+  z-index: 1;
+}
+
+.homepage .hero-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.homepage .hero-content h1 {
+  color: #fff;
+  font-size: 4em;
+}
+
+.homepage .hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  color: #fff;
+}
+
+.homepage .hero-buttons .btn {
+  margin: 0 0.75em;
+  padding: 0.75em 1.5em;
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.homepage .btn-primary,
+.homepage .btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.homepage .btn-primary {
+  background-color: #007bff;
+}
+
+.homepage .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.homepage .btn-secondary {
+  background-color: #6c757d;
+}
+
+.homepage .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.homepage .btn-primary:active,
+.homepage .btn-secondary:active {
+  transform: scale(0.95);
+}
+
+.homepage .features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+  background-color: #f8f9fa;
+}
+
+.homepage .feature-box {
+  width: 30%;
+  background: #ffffff;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.homepage .feature-box i {
+  font-size: 2em;
+  color: #333333;
+  margin-bottom: 0.5em;
+}
+
+.homepage .feature-box h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.homepage .feature-box p {
+  font-size: 1em;
+  color: #666;
+}
+
+.homepage .testimonials-section {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.homepage .testimonials-section h2{
+  border-bottom: 2px solid #a5a5a5;
+}
+
+.homepage .testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homepage .testimonial {
+  width: 45%;
+  background: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

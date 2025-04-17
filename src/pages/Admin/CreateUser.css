@@ -1,0 +1,202 @@
+.create-user-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.create-user-page .create-user-container,
+.create-user-page .registered-users-container {
+  width: 100%;
+  max-width: 1400px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-user-page h1,
+.create-user-page h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.create-user-page .registrations-container,
+.create-user-page .users-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.create-user-page .registration-card,
+.create-user-page .user-card {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-user-page .users-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* Create two equal columns */
+  gap: 20px;  /* Space between the cards */
+}
+
+.create-user-page .user-detail,
+.create-user-page .registration-detail {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.create-user-page .registration-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.create-user-page .approve-btn,
+.create-user-page .decline-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.create-user-page .approve-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.create-user-page .decline-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Button on top right of the container */
+.create-user-page .create-user-container {
+  position: relative;
+}
+
+.create-user-page .create-user-btn {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.create-user-btn:hover {
+  background-color: #45a049;
+}
+
+/* Modal Styles */
+.create-user-page .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.create-user-page .modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh; /* Ensure modal doesn't exceed viewport height */
+  overflow-y: auto; /* Add scroll if content exceeds the height */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.create-user-page .modal-content h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 10px;
+}
+
+.create-user-page .modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-user-page .modal-content label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.create-user-page .modal-content input,
+.create-user-page .modal-content textarea,
+.create-user-page .modal-content select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.create-user-page .modal-content input:focus,
+.create-user-page .modal-content textarea:focus,
+.create-user-page .modal-content select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.create-user-page .modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.create-user-page .modal-actions button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.create-user-page .modal-actions button:first-child {
+  background: #f44336;
+  color: white;
+}
+
+.create-user-page .modal-actions button:last-child {
+  background: #4caf50;
+  color: white;
+}
+
+.create-user-page .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #333;
+}
