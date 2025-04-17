@@ -46,3 +46,53 @@
 4. **Reputation Scoring**  
    Based on the level of certificate and work experience, users earn points that contribute to their rank on the leaderboard.
 
+---
+
+## 🚀 How to Run
+
+Follow these steps to set up and run the SkillProof platform on your local machine:
+
+1. **Download or Clone the Repository**
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Hardhat Local Blockchain**
+   Open a new terminal and run:
+   ```bash
+   npx hardhat node
+   ```
+
+4. **Deploy Smart Contracts**
+   In a new terminal tab/window:
+   ```bash
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
+
+5. **Configure Firebase**
+   - Go to [Firebase Console](https://console.firebase.google.com/)
+   - Create a new project, enable Firestore and Authentication (Email/Password)
+   - Replace your Firebase config inside a `.env` file at the root of your project:
+     ```env
+     REACT_APP_API_KEY=your_api_key
+     REACT_APP_AUTH_DOMAIN=your_auth_domain
+     REACT_APP_PROJECT_ID=your_project_id
+     REACT_APP_STORAGE_BUCKET=your_storage_bucket
+     REACT_APP_MESSAGING_SENDER_ID=your_sender_id
+     REACT_APP_APP_ID=your_app_id
+     ```
+
+6. **Run the Frontend App**
+   ```bash
+   npm start
+   ```
+
+7. **Connect MetaMask**
+   - Install the MetaMask extension in your browser.
+   - Import one of the accounts from Hardhat (use the private key printed when you run `npx hardhat node`).
+   - Make sure MetaMask is connected to `http://127.0.0.1:8545` (Custom RPC).
+   - Refresh the app and interact with the platform!
+
+8. **Explore the App**
