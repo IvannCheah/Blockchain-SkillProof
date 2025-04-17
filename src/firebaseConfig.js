@@ -3,13 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore, collection, query, where, getDocs, or } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDr_Z7TBOOkNWmjD8a3UwELWfqc8HVPKUI",
-  authDomain: "skillproof-582b6.firebaseapp.com",
-  projectId: "skillproof-582b6",
-  storageBucket: "skillproof-582b6.appspot.com",
-  messagingSenderId: "96247642469",
-  appId: "1:96247642469:web:7d27f9270010380e67098c",
-  measurementId: "G-TTKKFXZ30B"
+  apiKey: "YOUR-DATA",
+  authDomain: "YOUR-DATA",
+  projectId: "YOUR-DATA",
+  storageBucket: "YOUR-DATA",
+  messagingSenderId: "YOUR-DATA",
+  appId: "YOUR-DATA",
+  measurementId: "YOUR-DATA"
 };
 
 // Initialize Firebase
