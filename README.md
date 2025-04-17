@@ -2,6 +2,8 @@
 
 **SkillProof** is a blockchain-powered platform designed to securely verify and showcase professional skills and work experiences. By replacing traditional paper-based credentials with tamper-proof blockchain records, SkillProof ensures authenticity, transparency, and long-term integrity of achievements. What sets SkillProof apart is its built-in reputation system, which assigns users a score based on validated certifications and work experiences. This encourages continuous learning and provides a measurable way to track personal growth. With decentralized storage, transparent validation, and a dynamic leaderboard, SkillProof empowers individuals to build strong, credible professional profiles while helping employers confidently verify qualifications—ultimately promoting a culture of lifelong learning and trust.
 
+![Homepage Screenshot](https://github.com/IvannCheah/Blockchain-SkillProof/blob/20b2747a44328e29aba134801bf35df5ca0d5355/mainpage.png)
+
 ---
 
 ## 🧩 Features
@@ -96,3 +98,5 @@ Follow these steps to set up and run the SkillProof platform on your local machi
    - Refresh the app and interact with the platform!
 
 8. **Explore the App**
+
+![Homepage Screenshot](https://github.com/IvannCheah/Blockchain-SkillProof/blob/20b2747a44328e29aba134801bf35df5ca0d5355/employeepage.png)
