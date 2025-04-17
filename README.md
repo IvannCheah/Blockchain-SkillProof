@@ -1,4 +1,4 @@
-# SkillProof
+# SkillProof: Blockchain-based Platform for Skill Verification and Reputation Building
 
 **SkillProof** is a blockchain-based skill verification and reputation scoring system. It allows users to securely store, verify, and manage their certificates and work experience using decentralized technologies such as Ethereum, IPFS, and smart contracts.
 
