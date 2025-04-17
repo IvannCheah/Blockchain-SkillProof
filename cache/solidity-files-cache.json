@@ -1,0 +1,149 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\ivanc\\Desktop\\skillproof\\contracts\\Certification.sol": {
+      "lastModificationDate": 1733038795511,
+      "contentHash": "0cabe5732029e924f11d0983366708b2",
+      "sourceName": "contracts/Certification.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Certification"
+      ]
+    },
+    "C:\\Users\\ivanc\\Desktop\\skillproof\\contracts\\About.sol": {
+      "lastModificationDate": 1732698339413,
+      "contentHash": "f3424ff345176e3f37f1233709257c76",
+      "sourceName": "contracts/About.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "About"
+      ]
+    },
+    "C:\\Users\\ivanc\\Desktop\\skillproof\\contracts\\WorkExperience.sol": {
+      "lastModificationDate": 1732863512702,
+      "contentHash": "a75db064b73562159c928b19163c38ec",
+      "sourceName": "contracts/WorkExperience.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "WorkExperience"
+      ]
+    },
+    "C:\\Users\\ivanc\\Desktop\\skillproof\\contracts\\OrgProfile.sol": {
+      "lastModificationDate": 1732896261627,
+      "contentHash": "182ca13cc8b4017069e0dda01adea11a",
+      "sourceName": "contracts/OrgProfile.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OrgProfile"
+      ]
+    }
+  }
+}

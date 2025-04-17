@@ -1,0 +1,828 @@
+console.log('Decoded Transaction Data:', decodedData);
+const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+console.log('Transaction Details:', tx);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0xc857c961be74de0cbd82ea2ed7a4daadf6f6f8e373534e6ac3f45e33834fab98';
+const contract = await ethers.getContractAt(certificationABI, certificationAddress);
+const certificationAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+];
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+      { "internalType": "string", "name": "certType", "type": "string" },
+      { "internalType": "string", "name": "issuer", "type": "string" },
+      { "internalType": "string", "name": "issueDate", "type": "string" },
+      { "internalType": "string", "name": "courseName", "type": "string" },
+    "inputs": [
+  {
+const certificationABI = [
+clear
+console.log('Decoded Transaction Data:', decodedData);
+const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+console.log('Transaction Details:', tx);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0xc857c961be74de0cbd82ea2ed7a4daadf6f6f8e373534e6ac3f45e33834fab98';
+const contract = await ethers.getContractAt(certificationABI, certificationAddress);
+const certificationAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+];
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+      { "internalType": "string", "name": "certType", "type": "string" },
+      { "internalType": "string", "name": "issuer", "type": "string" },
+      { "internalType": "string", "name": "issueDate", "type": "string" },
+      { "internalType": "string", "name": "courseName", "type": "string" },
+    "inputs": [
+  {
+const certificationABI = [
+const txHash = '0xc857c961be74de0cbd82ea2ed7a4daadf6f6f8e373534e6ac3f45e33834fab98';
+const txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
+const contract = await ethers.getContractAt(certificationABI, certificationAddress);
+const certificationAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+];
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+      { "internalType": "string", "name": "certType", "type": "string" },
+      { "internalType": "string", "name": "issuer", "type": "string" },
+      { "internalType": "string", "name": "issueDate", "type": "string" },
+      { "internalType": "string", "name": "courseName", "type": "string" },
+    "inputs": [
+  {
+const certificationABI = [
+console.log('Decoded Transaction Data:', decodedData);
+const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+// Decode the transaction input data using the contract ABI
+console.log('Transaction Details:', tx);
+const tx = await ethers.provider.getTransaction(txHash);
+// Fetch the transaction details
+// Example transaction hash (reconst txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
+const contract = await ethers.getContractAt(certificationABI, certificationAddress);
+// Fetch the contract instance
+const certificationAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3'; // Replace with the actual contract address
+// Set the contract address to `certificationAddress`
+];
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+      { "internalType": "string", "name": "certType", "type": "string" },
+      { "internalType": "string", "name": "issuer", "type": "string" },
+      { "internalType": "string", "name": "issueDate", "type": "string" },
+      { "internalType": "string", "name": "courseName", "type": "string" },
+    "inputs": [
+  {
+const certificationABI = [
+// Define the ABI of the contract
+console.log('Decoded Transaction Data:', decodedData);
+const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+console.log('Transaction Details:', tx);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
+const contract = await ethers.getContractAt(certificationABI, certificationAddress);
+const certificationAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+    ];
+      }
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "validateCertificate",
+        ],
+          }
+            "type": "uint256"
+            "name": "index",
+            "internalType": "uint256",
+          {
+          },
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "updateCertificateScore",
+        ],
+          }
+            "type": "uint256"
+            "name": "score",
+            "internalType": "uint256",
+          {
+          },
+            "type": "string"
+            "name": "certType",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "submitCertificate",
+        ],
+          }
+            "type": "string"
+            "name": "ipfsHash",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "certType",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "issuer",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "issueDate",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "courseName",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "getReputationScore",
+        ],
+          }
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "tuple[]"
+            "name": "",
+            "internalType": "struct Certification.Certificate[]",
+            ],
+              }
+                "type": "string"
+                "name": "ipfsHash",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "certType",
+                "internalType": "string",
+              {
+              },
+                "type": "bool"
+                "name": "validated",
+                "internalType": "bool",
+              {
+              },
+                "type": "string"
+                "name": "issuer",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "issueDate",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "courseName",
+                "internalType": "string",
+              {
+            "components": [
+          {
+        "outputs": [
+        "name": "getCertificates",
+        ],
+          }
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address[]"
+            "name": "",
+            "internalType": "address[]",
+          {
+        "outputs": [
+        "name": "getAllEmployeeAddresses",
+        "inputs": [],
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "reputationScore",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "employees",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "outputs": [
+        "name": "employeeAddresses",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "certificateScores",
+        ],
+          }
+            "type": "string"
+            "name": "",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "outputs": [
+        "name": "admin",
+        "inputs": [],
+      {
+      },
+        "type": "constructor"
+        "stateMutability": "nonpayable",
+        "inputs": [],
+      {
+    const certificationABI = [
+}
+  console.log('Transaction not found or invalid hash');
+} else {
+  console.log('Decoded Transaction Data:', decodedData);
+  const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+if (tx) {
+console.log('Transaction Details:', tx);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
+const contract = await ethers.getContractAt(certificationABI, contractAddress);
+const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+];
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+      { "internalType": "string", "name": "certType", "type": "string" },
+      { "internalType": "string", "name": "issuer", "type": "string" },
+      { "internalType": "string", "name": "issueDate", "type": "string" },
+      { "internalType": "string", "name": "courseName", "type": "string" },
+    "inputs": [
+  {
+const certificationABI = [
+clear
+console.log(decodedData);
+const decodedData = contract.interface.decodeFunctionData('submitCertificate', tx.data);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
+const contract = await ethers.getContractAt(certificationABI, contractAddress);
+const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+console.log(result);
+const result = await contract.someFunction();
+const contract = await ethers.getContractAt(certificationABI, contractAddress);
+    ];
+      }
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "validateCertificate",
+        ],
+          }
+            "type": "uint256"
+            "name": "index",
+            "internalType": "uint256",
+          {
+          },
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "updateCertificateScore",
+        ],
+          }
+            "type": "uint256"
+            "name": "score",
+            "internalType": "uint256",
+          {
+          },
+            "type": "string"
+            "name": "certType",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "name": "submitCertificate",
+        ],
+          }
+            "type": "string"
+            "name": "ipfsHash",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "certType",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "issuer",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "issueDate",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "courseName",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "getReputationScore",
+        ],
+          }
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "tuple[]"
+            "name": "",
+            "internalType": "struct Certification.Certificate[]",
+            ],
+              }
+                "type": "string"
+                "name": "ipfsHash",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "certType",
+                "internalType": "string",
+              {
+              },
+                "type": "bool"
+                "name": "validated",
+                "internalType": "bool",
+              {
+              },
+                "type": "string"
+                "name": "issuer",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "issueDate",
+                "internalType": "string",
+              {
+              },
+                "type": "string"
+                "name": "courseName",
+                "internalType": "string",
+              {
+            "components": [
+          {
+        "outputs": [
+        "name": "getCertificates",
+        ],
+          }
+            "type": "address"
+            "name": "user",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address[]"
+            "name": "",
+            "internalType": "address[]",
+          {
+        "outputs": [
+        "name": "getAllEmployeeAddresses",
+        "inputs": [],
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "reputationScore",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "employees",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "outputs": [
+        "name": "employeeAddresses",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "uint256"
+            "name": "",
+            "internalType": "uint256",
+          {
+        "outputs": [
+        "name": "certificateScores",
+        ],
+          }
+            "type": "string"
+            "name": "",
+            "internalType": "string",
+          {
+        "inputs": [
+      {
+      },
+        "type": "function"
+        "stateMutability": "view",
+        ],
+          }
+            "type": "address"
+            "name": "",
+            "internalType": "address",
+          {
+        "outputs": [
+        "name": "admin",
+        "inputs": [],
+      {
+      },
+        "type": "constructor"
+        "stateMutability": "nonpayable",
+        "inputs": [],
+      {
+    const certificationABI = [
+const contract = await ethers.getContractAt(contractABI, contractAddress);
+]
+  }
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "validateCertificate",
+    ],
+      }
+        "type": "uint256"
+        "name": "index",
+        "internalType": "uint256",
+      {
+      },
+        "type": "address"
+        "name": "user",
+        "internalType": "address",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "updateCertificateScore",
+    ],
+      }
+        "type": "uint256"
+        "name": "score",
+        "internalType": "uint256",
+      {
+      },
+        "type": "string"
+        "name": "certType",
+        "internalType": "string",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "submitCertificate",
+    ],
+      }
+        "type": "string"
+        "name": "ipfsHash",
+        "internalType": "string",
+      {
+      },
+        "type": "string"
+        "name": "certType",
+        "internalType": "string",
+      {
+      },
+        "type": "string"
+        "name": "issuer",
+        "internalType": "string",
+      {
+      },
+        "type": "string"
+        "name": "issueDate",
+        "internalType": "string",
+      {
+      },
+        "type": "string"
+        "name": "courseName",
+        "internalType": "string",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "uint256"
+        "name": "",
+        "internalType": "uint256",
+      {
+    "outputs": [
+    "name": "getReputationScore",
+    ],
+      }
+        "type": "address"
+        "name": "user",
+        "internalType": "address",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "tuple[]"
+        "name": "",
+        "internalType": "struct Certification.Certificate[]",
+        ],
+          }
+            "type": "string"
+            "name": "ipfsHash",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "certType",
+            "internalType": "string",
+          {
+          },
+            "type": "bool"
+            "name": "validated",
+            "internalType": "bool",
+          {
+          },
+            "type": "string"
+            "name": "issuer",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "issueDate",
+            "internalType": "string",
+          {
+          },
+            "type": "string"
+            "name": "courseName",
+            "internalType": "string",
+          {
+        "components": [
+      {
+    "outputs": [
+    "name": "getCertificates",
+    ],
+      }
+        "type": "address"
+        "name": "user",
+        "internalType": "address",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "address[]"
+        "name": "",
+        "internalType": "address[]",
+      {
+    "outputs": [
+    "name": "getAllEmployeeAddresses",
+    "inputs": [],
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "uint256"
+        "name": "reputationScore",
+        "internalType": "uint256",
+      {
+    "outputs": [
+    "name": "employees",
+    ],
+      }
+        "type": "address"
+        "name": "",
+        "internalType": "address",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "address"
+        "name": "",
+        "internalType": "address",
+      {
+    "outputs": [
+    "name": "employeeAddresses",
+    ],
+      }
+        "type": "uint256"
+        "name": "",
+        "internalType": "uint256",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "uint256"
+        "name": "",
+        "internalType": "uint256",
+      {
+    "outputs": [
+    "name": "certificateScores",
+    ],
+      }
+        "type": "string"
+        "name": "",
+        "internalType": "string",
+      {
+    "inputs": [
+  {
+  },
+    "type": "function"
+    "stateMutability": "view",
+    ],
+      }
+        "type": "address"
+        "name": "",
+        "internalType": "address",
+      {
+    "outputs": [
+    "name": "admin",
+    "inputs": [],
+  {
+  },
+    "type": "constructor"
+    "stateMutability": "nonpayable",
+    "inputs": [],
+  {
+const contractABI = [[];
+const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+console.log(receipt);
+const receipt = await ethers.provider.getTransaction
+console.log(tx);
+const tx = await ethers.provider.getTransaction(txHash);
+const txHash = '0x627383162f6cc6a06459dd210c2438ab687a2685121d7d666c34a4a3e48afff7';
