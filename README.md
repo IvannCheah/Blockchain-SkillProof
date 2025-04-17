@@ -15,17 +15,20 @@
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Technologies Used
 
-| Layer | Technology |
-|-------|------------|
-| **Smart Contracts** | Solidity, Ethereum |
-| **Blockchain Development** | Hardhat |
-| **Blockchain Interaction** | Web3.js |
-| **Frontend** | React.js, HTML, CSS, JavaScript |
-| **Backend/Auth** | Node.js, Firebase |
-| **Wallet Integration** | MetaMask |
-| **Decentralized Storage** | IPFS (via Pinata) |
+### 🔗 Blockchain & Backend
+- **Hardhat (Localhost)** – Local Ethereum-like blockchain for developing and testing smart contracts.
+- **Solidity** – Language for writing smart contracts.
+- **Web3.js** – Connects frontend to blockchain network.
+- **Node.js** – Backend server logic.
+- **Firebase** – NoSQL database for user authentication and profile storage.
+- **Pinata + IPFS** – Decentralized storage for certificate files.
+
+### 💻 Frontend
+- **React.js** – User-friendly and dynamic interface.
+- **JavaScript, HTML, CSS** – Core web technologies for structure and styling.
+- **MetaMask** – Browser extension wallet for secure blockchain interaction.
 
 ---
 
